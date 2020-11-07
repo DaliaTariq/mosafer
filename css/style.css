@@ -38,6 +38,12 @@ ul li{
     margin-top:20px;
     text-align: center;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
 /********************Start Navbar******************************/
 .navbar{
     background: #ffff;
@@ -608,7 +614,7 @@ line-height: 1.8;
     height: 263px;
     position: relative;
 }
-.contact_us .section-content .section-header::after{
+.contact_us .section-header::after{
     position: absolute;
     content: '';
     height: 5px;
@@ -653,10 +659,12 @@ line-height: 1.8;
 .contact_us .contact-information .contact-info h4{
     font-family:'Tajawal', sans-serif; 
     color:#330000;
+    
 
 }
 .contact_us .contact-information .contact-info p{
-    font-size:16px;
+    font-size:14px;
+    color:#330000;
 }
 .contact_us .contact-information .contact-info p .email{
     font-family:'Tajawal', sans-serif; 
@@ -755,6 +763,9 @@ line-height: 1.8;
     }
     .container {
         width:100%;
+    }
+    .section {
+        margin-bottom: 40px;
     }
     .navbar-brand img {
         width: 70%;
@@ -873,7 +884,7 @@ line-height: 1.8;
     font-size: 13px;
 }
 .advertising .section-content .section-header::after{
-    right: 198px;
+    right: 135px;
     height: 4px;
     width: 56px;
     top: 35px;
@@ -882,9 +893,28 @@ line-height: 1.8;
     width:90%;
     margin:0 auto;
 }
+.categContainer{
+    padding: 20px 25px;
+}
+.myOwl .owl-carousel .owl-nav button.owl-next,
+ .myOwl .owl-carousel .owl-nav button.owl-prev{
+    width: 30px;
+    height: 30px;
+ }
+ .myOwl .owl-carousel .owl-nav button.owl-prev{
+     right: -36px;
+ }
+ .myOwl .owl-carousel .owl-nav button.owl-next{
+     left: -36px;
+ }
 .watsapp-bar .watsapp-content{
    margin:0 auto;
-    width:95%;
+    width:100%;
+    height: auto;
+    padding: 30px;
+}
+.watsapp-bar .watsapp-content .wats-txt{
+    padding-right: 20px;
 }
 .watsapp-bar .watsapp-content h3{
     font-size:16px;
@@ -893,8 +923,9 @@ line-height: 1.8;
 .watsapp-content .wats-num{
     width: 70%;
     margin: 0 auto;
-    margin-right: 115px;
+    margin-right: 100px;
     height: 44px;
+    line-height: 10px;
    
 }
 .watsapp-content .wats-num .whats_icon > i{
@@ -902,8 +933,8 @@ line-height: 1.8;
         font-size: 20px;
         margin-right: -3px; 
         margin: 0 auto; 
-        margin-left: 15px;
-        line-height: 20px;
+        margin-left: 8px;
+        line-height: 40px;
     }
     .our-team .main-ourTeam{
         background:none;
@@ -948,15 +979,38 @@ line-height: 1.8;
     width: 90%;
   
 }
-
+.our-team .main-ourTeam .member1{
+    height: 250px;
+}
 .our-team .main-ourTeam .member2 {
-    top: 341px;
-    /* width: 50%; */
+    top: 345px;
+    height: 250px;
 }
 .our-team{
-    height: auto;
+    height: 780px;
 }
-
+.contact_us .section-header{
+    font-size:26px;
+}
+.contact_us .section-content .section-header::after{
+    height: 4px;
+    width: 55px;
+    top: 36px;
+    right: 113px;
+}
+.contact_us .section-content p{
+    font-size:13px;
+    width: 95%;
+}
+#map {
+    height: 472px;
+}
+.contact_us .contact-information .contact-info{
+ /*   padding: 20px;*/
+}
+.footer{
+    margin-top: 472px;
+}
 }
 
 
