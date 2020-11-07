@@ -896,7 +896,7 @@ line-height: 1.8;
 .categContainer{
     padding: 20px 25px;
 }
-.myOwl .owl-carousel .owl-nav button.owl-next,
+/*.myOwl .owl-carousel .owl-nav button.owl-next,
  .myOwl .owl-carousel .owl-nav button.owl-prev{
     width: 30px;
     height: 30px;
@@ -906,7 +906,7 @@ line-height: 1.8;
  }
  .myOwl .owl-carousel .owl-nav button.owl-next{
      left: -36px;
- }
+ }*/
 .watsapp-bar .watsapp-content{
    margin:0 auto;
     width:100%;
