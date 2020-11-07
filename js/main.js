@@ -26,6 +26,38 @@ $(document).ready(function () {
 
 
     /**Call Carousel*/
+   /* $('.categOwl').owlCarousel({
+        loop: true,
+        autoplay: true,
+        dots: false,
+        margin: 10,
+        autoplayHoverPause: true,
+        smartSpeed: 350,
+        responsiveClass: true,
+        rtl:true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            575: {
+                items: 2,
+                nav: true
+            },
+
+            800: {
+                items: 2,
+                nav: true
+            },
+            1025: {
+                items: 5,
+                nav: true,
+                loop: true
+            }
+        }
+    });*/
+
+
     $('.categOwl').owlCarousel({
         loop: true,
         autoplay: true,
@@ -34,6 +66,7 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         smartSpeed: 350,
         responsiveClass: true,
+        rtl:true,
         responsive: {
             0: {
                 items: 1,
