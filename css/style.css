@@ -871,6 +871,7 @@ line-height: 1.8;
 }
 .vedio a.vedio_main {
     height: 250px;
+    margin-bottom: 20px;
 }
 .services .section-header{
     text-align: right;
@@ -895,6 +896,7 @@ line-height: 1.8;
 .services .main-services .services-item{
     width:90%;
     margin:15px auto;
+    height: 295px;
 }
 .services .main-services .services-item .services-icon{
     font-size: 40px;
@@ -1010,7 +1012,7 @@ line-height: 1.8;
     height: 250px;
 }
 .our-team{
-    height: 780px;
+    height: 415px;
 }
 .contact_us .section-header{
     font-size:26px;
@@ -1115,8 +1117,13 @@ body .container-fluid{
     width:55px;
 }
 .services .services-bg{
-    height: 700px;
-    margin-bottom: 0;
+   background: none;
+}
+.services .main-services .services-item{
+    height: 220px;
+}
+.services .main-services .services-item .services-icon#plan{
+    width:10%;
 }
 .services .main-services{
     margin: -739px auto 60px;
