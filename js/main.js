@@ -54,7 +54,7 @@ $(document).ready(function () {
     });
 
 
-    
+    /*Smooth Scrolling*/ 
     function onScroll(event){
         var scrollPosition = $(document).scrollTop();
       $('.nav-link[href^="#"').each(function () {
@@ -75,6 +75,12 @@ $(document).ready(function () {
         }
       });
     }
+    $(document).on("scroll", onScroll);
+    $('.navbar-collapse .nav-link').on('click', function () {
+      $('html, body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+    
+      return false;
+    });
 
 
 
