@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     //Top Nav (Scroling Navbar)//
     scrollShow = false;
     $(window).scroll(function () {
@@ -21,76 +22,6 @@ $(document).ready(function () {
             scrollShow = false;
         }
     });
-
-
-
-
-    /**Call Carousel*/
-   /* $('.categOwl').owlCarousel({
-        loop: true,
-        autoplay: true,
-        dots: false,
-        margin: 10,
-        autoplayHoverPause: true,
-        smartSpeed: 350,
-        responsiveClass: true,
-        rtl:true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            575: {
-                items: 2,
-                nav: true
-            },
-
-            800: {
-                items: 2,
-                nav: true
-            },
-            1025: {
-                items: 5,
-                nav: true,
-                loop: true
-            }
-        }
-    });*/
-
-
-   /* $('.categOwl').owlCarousel({
-        loop: true,
-        autoplay: true,
-        dots: false,
-        margin: 10,
-        autoplayHoverPause: true,
-        smartSpeed: 350,
-        responsiveClass: true,
-        rtl:true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            575: {
-                items: 2,
-                nav: true
-            },
-
-            800: {
-                items: 2,
-                nav: true
-            },
-            1025: {
-                nav: true,
-                center:true,
-                autoWidth:true,
-                items: 3,
-                loop: true
-            }
-        }
-    });*/
-
 
 
 
@@ -120,7 +51,33 @@ $(document).ready(function () {
                 loop:true,
             }
         }
-    })
+    });
+
+
+    
+    function onScroll(event){
+        var scrollPosition = $(document).scrollTop();
+      $('.nav-link[href^="#"').each(function () {
+        console.log($(this).attr('href')); 
+        var refElement = $($(this).attr("href"));
+      //   console.log($(this).attr("href")); //log
+        if (refElement.length&&refElement.position().top-100 <= scrollPosition) {
+        $('.nav-link').removeClass("active");
+        $(this).addClass("active");
+        }
+        else if( $(document).scrollTop() <= 100){
+          $('.nav-link').removeClass("active");
+          $('.nav-link.home').addClass("active");
+        }
+        else{
+        $(this).removeClass("active"); 
+      
+        }
+      });
+    }
+
+
+
     
 
 });

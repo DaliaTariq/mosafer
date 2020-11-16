@@ -873,6 +873,10 @@ line-height: 1.8;
     height: 250px;
     margin-bottom: 20px;
 }
+.abou-us .vedio_main:before{
+    width: 91.5%;
+    height: 93%;
+}
 .services .section-header{
     text-align: right;
     position: relative;
