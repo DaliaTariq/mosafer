@@ -82,10 +82,12 @@ a:hover{
     padding: 5px 5px;
     transition: 0.5s;
     border-radius: 0;
+    font-weight: 600;
 }
 .navbar .nav-item i{
     padding-left: 6px;
-    font-size:18px;
+    font-size:16px;
+   
 }
 .navbar .nav-item:hover{
     background: #d34e20;
@@ -716,8 +718,22 @@ line-height: 1.8;
 
 }
 .footer ul li a:hover{
-    color:#B33D15 !important;
-    background:#fff;
+    box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16)!important;
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);f;
+}
+.footer ul li #watsapp:hover{
+    background:#25D366;
+
+}
+.footer ul li #instagram:hover{
+    background:#e4405f;
+
+}
+.footer ul li #facebook:hover{
+    background:#3b5999;
+
 }
 /****************************Responsive*******************/
   /**********************Media Query******************/
