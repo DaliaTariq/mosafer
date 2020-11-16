@@ -315,21 +315,27 @@ margin-left: 5px;
 .services .main-services .services-item{
     background-image: none;
     box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-    padding: 30px;
+    padding: 20px;
     z-index: 12222222;
     background:#fff;
     width:100%;
+    text-align: right;
+    height: 425px;
 }
 .services .main-services .services-item .services-icon{
-    display: block;
+    display:block;
     color: #B33D15;
-    text-align: right;
-    font-size: 60px;
+    font-size: 35px;
+}
+.services .main-services .services-item .services-icon#plan{
+    transform: rotate(-20deg);
+    width: 30%;
 }
 .services .main-services .services-item h3{
     color: #330000;
     font-family: 'Tajawal', sans-serif;
-    text-align: right;
+    font-size: 17px;
+    font-weight: 600;
 }
 .services .main-services .services-item p{
     font-family: 'Tajawal', sans-serif;
@@ -531,6 +537,9 @@ margin-left: 5px;
 }
 .watsapp-content .wats-num .whats_icon > i{
     margin: 20%;
+}
+.watsapp-content .test{
+    display: none;
 }
 /********************End watsapp-bar****************************/
 /**********************Start our-team**************************/
@@ -1138,6 +1147,9 @@ body .container-fluid{
 .watsapp-content .wats-num .whats_icon > i{
     margin: 19%;
     margin-left: 15px;
+}
+.watsapp-content .test{
+    display: block;
 }
 .our-team .section-content .section-header::after{
     height: 4px;
