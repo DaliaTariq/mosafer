@@ -790,7 +790,7 @@ line-height: 1.8;
     z-index: 100;
     margin-top: -6px;
     width: 100%;
-    margin-left: 18px;
+    
     margin-right: -15px;
     z-index: 1000;
 }
@@ -824,11 +824,11 @@ line-height: 1.8;
 }
 .hero-section .contact-form{
     position: absolute;
-    top: 50px;
+    top: 20px;
    /* z-index: 200;/**********/
-    right: 41px;
-    width: 80%;
-    height: auto;
+    right: 35px;
+    width: 85%;
+    height: 530px;
 }
 .hero-section .contact-form .form-header p{
     font-size:17px;
@@ -994,7 +994,7 @@ line-height: 1.8;
     height: 4px;
     width: 55px;
     top: 36px;
-    right: 113px;
+    right: 111px;
 }
 .contact_us .section-content p{
     font-size:13px;
@@ -1136,6 +1136,44 @@ body .container-fluid{
     height: 4px;
     width: 60px;
     right: 273px;
+}
+.our-team .main-ourTeam .team-info,
+ .our-team .main-ourTeam .member1, 
+ .our-team .main-ourTeam .member2{
+     height: 330px;
+     padding: 15px;
+}
+.our-team .main-ourTeam .member1, 
+ .our-team .main-ourTeam .member2{
+   padding: 8px;
+ }
+.our-team .main-ourTeam .team-info .u-icon-1{
+    font-size:45px;
+}
+.our-team .main-ourTeam .team-info h4{
+    font-size: 1.3rem;
+}
+.our-team .main-ourTeam .team-info p{
+    font-size:13px
+}
+.our-team .main-ourTeam .team-info{
+    height: 290px;
+}
+.our-team .main-ourTeam .member2 {
+    top: 85px;
+}
+.our-team .main-ourTeam .member1 {
+    top: -55px;
+}
+.contact_us .contact-information .contact-info .icon{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.contact_us .contact-information .contact-info{
+    padding:22px;
 }
 }
 
