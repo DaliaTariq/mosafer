@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="lightcase-2.5.0/src/css/lightcase.css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <title>Almosafer</title>
   <link rel="shortcut icon" href="image/tabIcon.png">
@@ -234,7 +236,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                             <a href="image/adv1.jpg" data-rel="lightcase" >
                               <img src="image/adv1.jpg" alt="adv1">
+                             </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel">إعلان 1</h4>
@@ -255,7 +259,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                              <a href="image/adv2.jpg" data-rel="lightcase" >
                               <img src="image/adv2.jpg" alt="adv2">
+                              </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel">إعلان 2</h4>
@@ -276,7 +282,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                              <a href="image/adv3.jpg" data-rel="lightcase" >
                               <img src="image/adv3.jpg" alt="adv3">
+                            </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel">إعلان 3</h4>
@@ -297,7 +305,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                              <a href="image/adv3.jpg" data-rel="lightcase" >
                               <img src="image/adv4.jpg" alt="adv4">
+                              </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel">إعلان 4</h4>
@@ -318,7 +328,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                              <a href="image/adv5.jpg" data-rel="lightcase" >
                               <img src="image/adv5.jpg" alt="adv5">
+                              </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel">إعلان 5</h4>
@@ -339,7 +351,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                              <a href="image/adv64.jpg" data-rel="lightcase" >
                               <img src="image/adv64.jpg" alt="adv6">
+                              </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel"> 6 إعلان </h4>
@@ -360,7 +374,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                              <a href="image/adv5.jpg" data-rel="lightcase" >
                               <img src="image/adv5.jpg" alt="adv7">
+                              </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel">إعلان 7</h4>
@@ -381,7 +397,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                              <a href="image/adv1.jpg" data-rel="lightcase" >
                               <img src="image/adv1.jpg" alt="adv1">
+                              </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel">إعلان 8</h4>
@@ -403,7 +421,9 @@
                         <div class="categBoximage">
                           <div class="imageItem">
                             <div class="image">
+                              <a href="image/adv3.jpg" data-rel="lightcase" >
                               <img src="image/adv3.jpg" alt="adv3">
+                              </a>
                             </div>
                             <div class="adv-content">
                               <h4 class="adv-titel">إعلان 9</h4>
@@ -624,7 +644,7 @@
 
 
 
-  <!--Call Java Script Files-->
+    <!--Call Java Script Files-->
     <script src="js/jquery3.3.1.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -632,10 +652,9 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" defer>
     </script>
-  
+    <!--MAP START-->
     <script>
       let map;
-
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: -34.397, lng: 150.644 },
@@ -643,6 +662,17 @@
         });
       }
     </script>
+    <!--MAP END-->
+    <script src="lightcase-2.5.0/src/js/lightcase.js"></script>
+
+    <!--LIGHTCASE START-->
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $('a[data-rel^=lightcase]').lightcase();
+      });
+    </script>
+    <!--LIGHTCASE END-->
+
     <script src="js/main.js"></script>
   </div>
 </body>
