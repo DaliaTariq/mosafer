@@ -45,7 +45,7 @@ a:hover{
 /********************Start Navbar******************************/
 .navbar{
     background: #ffff;
-    height: 82px;
+    height: 65px;
     width:100%;
     box-shadow: 0 0 8px rgba(0,0,0,.14), 0 5px 8px rgba(0,0,0,.28);
     z-index: 3;
@@ -62,7 +62,8 @@ a:hover{
 }
 
 .navbar .logo{
-   width:150px;
+    width: 100px;
+    margin-right: 35px;
     
 }
 .navbar-brand img{
@@ -110,8 +111,10 @@ a:hover{
 }
 
 .hero-section .hero-image{
-    background-image:url(../image/delta-dubai-comfort-10.jpg);
+    background-image:url(../image/herosection.png);
     height: 100%;
+    background-size: cover;
+    background-position: right center ;
    
 }
 .hero-section .overlay{
@@ -122,6 +125,7 @@ a:hover{
     right: 0;
     background:#000;
     opacity:0.5;
+    display: none;
 }
 .hero-section .contact-form{
     /*width:500px;*/
@@ -669,7 +673,8 @@ line-height: 1.8;
     
 
 }
-.contact_us .contact-information .contact-info p{
+.contact_us .contact-information .contact-info p,
+.contact_us .contact-information .contact-info p a{
     font-size:14px;
     color:#330000;
 }
