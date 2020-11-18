@@ -21,7 +21,7 @@ ul li{
 .section-header{
     font-family: 'Tajawal', sans-serif;
     text-align: center;
-    color:#b33d15;
+    color:#44a59e;
     
 }
 .section{
@@ -91,7 +91,7 @@ a:hover{
    
 }
 .navbar .nav-item:hover{
-    background: #d34e20;
+    background:#44a59e;
     border-radius: 5px;
     transition: 0.5s;
     color: #fff;
@@ -130,7 +130,7 @@ a:hover{
 .hero-section .contact-form{
     /*width:500px;*/
     height:550px;
-    background:rgba(51, 0, 0, 0.75);
+    background:rgba(52, 85, 82, 0.75);
     position: absolute;
    top:60px;
     right: 660px;
@@ -166,8 +166,8 @@ a:hover{
     padding-bottom: 5px;
 }
 .hero-section .contact-form button{
-    background: #B33D15;
-    background-image: linear-gradient(to right left,#fff, #cdb455, #B33D15);
+    background: #44a59e;
+    background-image: linear-gradient(to right left,#fff, #cdb455, #44a59e);
     padding: 8px 22px!important;
     color: #fff;
     font-size:16px;
@@ -199,7 +199,7 @@ a:hover{
     content: '';
     height: 5px;
     width: 70px;
-    background-color: #B33D15;
+    background-color: #44a59e;
     top: 43px;
    /* left: 218px;*/
     opacity: 0.7;
@@ -256,7 +256,7 @@ a:hover{
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    color: #B33D15;
+    color: #44a59e;
     font-size:25px;
     line-height: 60px;
     transform: 1s;
@@ -265,7 +265,7 @@ a:hover{
 margin-left: 5px;
 }
 .vedio .vd_icon:hover{
-    background:#B33D15 ;
+    background:#44a59e ;
     color:#fff;
     transform: 1s;
 }
@@ -288,7 +288,7 @@ margin-left: 5px;
     content: '';
     height: 5px;
     width: 70px;
-    background-color: #B33D15;
+    background-color: #44a59e;
     top: 43px;
     right: 515px;
     opacity: 0.7;
@@ -328,7 +328,7 @@ margin-left: 5px;
 }
 .services .main-services .services-item .services-icon{
     display:block;
-    color: #B33D15;
+    color: #44a59e;
     font-size: 35px;
 }
 .services .main-services .services-item .services-icon#plan{
@@ -356,7 +356,7 @@ margin-left: 5px;
     content: '';
     height: 5px;
     width: 70px;
-    background-color: #B33D15;
+    background-color: #44a59e;
     top: 43px;
     right: 508px;
     opacity: 0.7;
@@ -378,7 +378,7 @@ margin-left: 5px;
     width: 40px;
     height: 40px;
     display: block!important;
-    background: #B33D15!important;
+    background: #44a59e!important;
     text-align: center;
     display: inline-block;
     opacity: 1!important;
@@ -420,7 +420,7 @@ margin-left: 5px;
  .myOwl .owl-content .adv-content .adv-titel{
      margin-top:10px;
      font-family: 'Tajawal', sans-serif;
-     color:#b33d15;
+     color:#44a59e;
  }
  .myOwl .owl-content .adv-content .adv-info{
     font-family: 'Tajawal', sans-serif;
@@ -461,7 +461,7 @@ margin-left: 5px;
  
  .owl-link a:hover{
      text-decoration: none;
-     color:#B33D15;
+     color:#44a59e;
  }
  
  .categContainer {
@@ -561,7 +561,7 @@ margin-left: 5px;
     content: '';
     height: 5px;
     width: 70px;
-    background-color: #B33D15;
+    background-color: #44a59e;
     top: 43px;
     right: 0px;
     opacity: 0.7;
@@ -569,7 +569,7 @@ margin-left: 5px;
     border-radius: 10px
 }
 .our-team .main-ourTeam{
-    background-color: #B33D15;
+    background-color: #44a59e;
     height: 228px;
     margin: 230px auto 0 0;
     position: relative;
@@ -583,7 +583,7 @@ margin-left: 5px;
 }
 .our-team .main-ourTeam .team-info{
     background:#fff;
-    border:8px solid #B33D15;
+    border:8px solid #44a59e;
     padding: 30px;
     justify-content: center;
     top: -200px;
@@ -593,7 +593,7 @@ margin-left: 5px;
 .our-team .main-ourTeam .team-info .u-icon-1{
     font-size:64px;
     margin: 0;
-    color: #B33D15 !important;
+    color: #44a59e !important;
     display: block;
     text-align: right;
     
@@ -630,7 +630,7 @@ line-height: 1.8;
     content: '';
     height: 5px;
     width: 70px;
-    background-color: #B33D15;
+    background-color: #44a59e;
     top: 43px;
     right: 480px;
     opacity: 0.7;
@@ -656,7 +656,7 @@ line-height: 1.8;
 }
 .contact_us .contact-information .contact-info .icon{
     display: block;
-    background-color: #B33D15;
+    background-color: #44a59e;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -723,7 +723,7 @@ line-height: 1.8;
     display: inline-block;
     color:#fff !important;
     font-size:16px;
-    background:#B33D15;
+    background:#44a59e;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -810,7 +810,7 @@ line-height: 1.8;
 }
 
 .navbar-light .navbar-toggler {
-   border:3px solid #b33d15;
+   border:3px solid #44a59e;
    margin-bottom: 15px;
    margin-left: 30px;
    border-radius: 5px; 
@@ -818,10 +818,10 @@ line-height: 1.8;
 }
 
 .navbar-light .navbar-collapse{
-    background:rgba(51, 0, 0,1);
+    background:#314353;
     color: #fff;
     z-index: 100;
-    margin-top: -6px;
+    margin-top: -14px;
     width: 100%;
     
     margin-right: -15px;
@@ -989,7 +989,7 @@ line-height: 1.8;
     }
     .our-team .main-ourTeam .team-info {
         width:90%;
-        border: 4px solid #B33D15;
+        border: 4px solid #44a59e;
         padding: 15px;
         top: -230px;
         /*height: 260px;*/
@@ -1084,7 +1084,7 @@ body .container-fluid{
 }
 
 .navbar-light .navbar-toggler {
-   border:3px solid #b33d15;
+   border:3px solid #44a59e;
    margin-bottom: 15px;
    margin-left: 30px;
    border-radius: 5px; 
@@ -1092,9 +1092,9 @@ body .container-fluid{
 }
 
 .navbar-light .navbar-collapse{
-    background:rgba(51, 0, 0,1);
+    background:#314353;
     color: #fff;
-    margin-top: -18px;
+    margin-top: -13px;
     width: 100%;
     margin-left:17px;
     margin-right: -15px;
