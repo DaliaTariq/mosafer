@@ -318,13 +318,14 @@ margin-left: 5px;
 }
 .services .main-services .services-item{
     background-image: none;
-    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    box-shadow: 0px 3px 16px 0 rgba(0,0,0,0.4);
     padding: 20px;
     z-index: 12222222;
     background:#fff;
     width:100%;
     text-align: right;
-    height: 425px;
+    height: 430px;
+  
 }
 .services .main-services .services-item .services-icon{
     display:block;
@@ -346,6 +347,7 @@ margin-left: 5px;
     text-align: right;
     line-height: 2;
 }
+
 /********************End services*******************************/
 /********************Start advertising**************************/
 .advertising .section-content.section-header h2{
@@ -933,17 +935,7 @@ line-height: 1.8;
 .categContainer{
     padding: 20px 25px;
 }
-/*.myOwl .owl-carousel .owl-nav button.owl-next,
- .myOwl .owl-carousel .owl-nav button.owl-prev{
-    width: 30px;
-    height: 30px;
- }
- .myOwl .owl-carousel .owl-nav button.owl-prev{
-     right: -36px;
- }
- .myOwl .owl-carousel .owl-nav button.owl-next{
-     left: -36px;
- }*/
+
 .watsapp-bar .watsapp-content{
    margin:0 auto;
     width:100%;

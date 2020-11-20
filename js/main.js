@@ -53,6 +53,35 @@ $(document).ready(function () {
         }
     });
 
+    $('.owl-services').owlCarousel({
+        loop:true,
+        autoplay:true,
+        dots:false,
+        margin:10,
+        autoplayHoverPause:true,
+        smartSpeed:350,
+        responsiveClass:true,
+        rtl:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+                loop:true
+            },
+            575:{
+                items:2,
+                nav:false,
+                loop:true
+            },
+            991:{
+                items:4,
+                nav:true,
+                loop:true,
+            }
+        }
+    });
+
+
 
     /*Smooth Scrolling*/ 
     function onScroll(event){
