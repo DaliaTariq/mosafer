@@ -59,7 +59,7 @@ $(document).ready(function () {
         dots:false,
         margin:10,
         autoplayHoverPause:true,
-        smartSpeed:350,
+        smartSpeed:300,
         responsiveClass:true,
         rtl:true,
         responsive:{
