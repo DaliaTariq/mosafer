@@ -751,6 +751,9 @@ line-height: 1.8;
     background:#3b5999;
 
 }
+.footer ul li #snap:hover{
+    background:#FFFC00;
+}
 #lightcase-case{
     top:55%;
 }
