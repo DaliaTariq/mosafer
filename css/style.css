@@ -296,7 +296,7 @@ margin-left: 5px;
     border-radius: 10px
 }
 .services .services-bg{
-    height: 409px;
+    height: 415px;
     margin: 70px auto 0 0;
     width:100%;
     z-index: -1;
@@ -910,13 +910,13 @@ line-height: 1.8;
 .services .main-services .services-item{
     width:90%;
     margin:15px auto;
-    height: 295px;
+    height: 314px;
 }
 .services .main-services .services-item .services-icon{
     font-size: 40px;
 }
 .services .main-services .services-item h3{
-    font-size: 22px;
+    font-size: 16px;
 }
 .services .main-services .services-item p{
     line-height: 1.5;
@@ -1124,7 +1124,7 @@ body .container-fluid{
    background: none;
 }
 .services .main-services .services-item{
-    height: 220px;
+    height: 315px;
 }
 .services .main-services .services-item .services-icon#plan{
     width:10%;
